@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iassie Ethiopian Market | Kennedy St NW, Washington, DC</title>
+<meta name="description" content="Ethiopian market on Kennedy St NW, Washington, DC — berbere and teff on the shelves, fresh injera, sambusas and doro wat from the kitchen. Call (202) 621-6860.">
+<!-- canonical omitted until the real domain is confirmed with the owner (former site selassiemarket.com is dead) -->
+<!-- CONFIRM with owner: business name — every online listing says "Selassie Ethiopian Market" (YP also cross-lists "Aelassie" and "Elsa's"); the prospect list says "Iassie". Built as Iassie per the client record; rename sitewide once confirmed. -->
+<!-- CONFIRM with owner: whether the business is currently open — Yelp marks the listing CLOSED (updated June 2026) while Restaurantji and YP still show it operating. Do not launch before confirming. -->
+<!-- CONFIRM with owner: phone — (202) 621-6860 comes from the client and is used sitewide; directories list (202) 248-0179 and (202) 450-5256 instead. -->
+<meta property="og:title" content="Iassie Ethiopian Market — Kennedy St NW, Washington, DC">
+<meta property="og:description" content="Berbere, teff and green coffee on the shelves — sambusas, doro wat and fresh injera from the kitchen in the back. Grocery · Prepared food · Catering.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23152119'/%3E%3Cpath d='M16 5 27 16 16 27 5 16Z' fill='%23D9A82B'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%232F6B3F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Karla:wght@400;500;600;700&family=Noto+Serif+Ethiopic:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<style>
+/* ---- Iassie Market palette: market greens & tej gold (overrides shared system) ---- */
+:root{
+  --parchment:#F5F2E6;
+  --parchment-deep:#EAE6D2;
+  --espresso:#152119;
+  --espresso-soft:#1E2E22;
+  --ink:#1D2A20;
+  --cream:#F2EEDC;
+  --berbere:#2F6B3F;
+  --berbere-deep:#245331;
+  --tej:#D9A82B;
+  --gomen:#4F6B45;
+  --muted:#646C57;
+  --muted-dark:#B9BC9B;
+}
+/* tibeb rewoven in market green & gold */
+.tibeb{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='14' viewBox='0 0 56 14'%3E%3Cpath d='M0 7 L7 0 L14 7 L7 14 Z M14 7 L21 0 L28 7 L21 14 Z M28 7 L35 0 L42 7 L35 14 Z M42 7 L49 0 L56 7 L49 14 Z' fill='%23D9A82B' fill-opacity='0.9'/%3E%3Ccircle cx='7' cy='7' r='1.6' fill='%23152119'/%3E%3Ccircle cx='21' cy='7' r='1.6' fill='%232F6B3F'/%3E%3Ccircle cx='35' cy='7' r='1.6' fill='%23152119'/%3E%3Ccircle cx='49' cy='7' r='1.6' fill='%232F6B3F'/%3E%3C/svg%3E")}
+/* hero art & scrim tuned to the green-black grocery palette */
+.hero__art{background:
+  radial-gradient(ellipse 62% 46% at 70% 38%, rgba(47,107,63,.5), transparent 62%),
+  radial-gradient(ellipse 50% 42% at 24% 70%, rgba(217,168,43,.22), transparent 65%),
+  radial-gradient(ellipse 30% 24% at 46% 84%, rgba(194,120,40,.18), transparent 70%),
+  var(--espresso)}
+.hero__scrim{background:linear-gradient(100deg, rgba(11,18,13,.92) 22%, rgba(11,18,13,.55) 55%, rgba(11,18,13,.32))}
+/* kitchen section grid */
+.kitchen__grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--space-gap);align-items:start;margin-top:44px}
+@media (max-width:900px){.kitchen__grid{grid-template-columns:1fr}}
+/* shelf-stock note on the dark aisles band */
+.shelf-note{font-size:13.5px;color:var(--muted-dark);border-left:2px solid var(--tej);padding-left:14px;max-width:60ch;margin-top:30px}
+/* ---- signature steam (exact spec) ---- */
+.steam{position:absolute;left:50%;bottom:78%;width:110px;height:150px;pointer-events:none;z-index:2;transform:translateX(-50%)}
+.steam i{position:absolute;bottom:0;left:calc(22%*var(--n));width:14px;height:44%;background:linear-gradient(to top,rgba(255,247,236,0),rgba(255,247,236,.55),rgba(255,247,236,0));border-radius:50%;filter:blur(6px);opacity:0;animation:steam-rise 3.4s ease-in-out calc(var(--n)*.55s) infinite}
+@keyframes steam-rise{0%{transform:translateY(0) scaleX(1);opacity:0}25%{opacity:.75}60%{opacity:.35}100%{transform:translateY(-120px) translateX(12px) scaleX(1.9);opacity:0}}
+@media (prefers-reduced-motion:reduce){.steam i{animation:none}}
+</style>
+<!-- GroceryStore structured data. Rating markup intentionally omitted per policy. Phone is the client-provided number. -->
+<!-- CONFIRM with owner: address variant — one directory snippet showed 709 Kennedy St NW; 705 used here per the primary listings. -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "GroceryStore",
+"name": "Iassie Ethiopian Market",
+"description": "Ethiopian grocery market with a prepared-food kitchen — spices, teff, fresh injera, sambusas, doro wat and catering.",
+"telephone": "+12026216860",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "705 Kennedy St NW",
+"addressLocality": "Washington",
+"addressRegion": "DC",
+"postalCode": "20011"
+}
+}
+</script>
+</head>
+<body class="no-js">
+<script>document.body.classList.remove('no-js')</script>
+<nav class="nav" aria-label="Main">
+<div class="wrap nav__inner">
+<a class="nav__brand" href="#top">Iassie <span class="amharic" aria-hidden="true">ገበያ</span></a>
+<div class="nav__links">
+<a class="nav__link" href="#market">The Market</a>
+<a class="nav__link" href="#aisles">The Aisles</a>
+<a class="nav__link" href="#kitchen">The Kitchen</a>
+<a class="nav__link" href="#visit">Visit</a>
+<a class="btn btn--berbere nav__cta" href="tel:+12026216860">Call the Market</a>
+</div>
+<button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+<span></span><span></span><span></span>
+</button>
+</div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+<a href="#market">The Market</a>
+<a href="#aisles">The Aisles</a>
+<a href="#kitchen">The Kitchen</a>
+<a href="#visit">Visit</a>
+<p class="mobile-menu__note">705 Kennedy St NW · Washington, DC · (202) 621-6860</p>
+</div>
+<header class="hero" id="top">
+<div class="hero__media" aria-hidden="true">
+<!-- Gradient art placeholder — REPLACE with real photography of the market's own shelves and mitad. data-replace="hero-market-aisle" -->
+<div class="hero__art" data-kenburns data-replace="hero-market-aisle"></div>
+<div class="hero__scrim"></div>
+<div class="steam" aria-hidden="true" style="left:34%;bottom:30%"><i style="--n:0"></i><i style="--n:1"></i><i style="--n:2"></i><i style="--n:3"></i></div>
+</div>
+<div class="wrap">
+<p class="hero__amharic gs-hero" lang="am">የቤት ጣዕም — the taste of home</p>
+<h1 class="display-xl gs-hero">Groceries<br>up front. <span class="accent">Doro wat in the back.</span></h1>
+<p class="hero__lede gs-hero">An Ethiopian market on Kennedy Street NW where the shelves carry berbere, teff and green coffee — and the kitchen behind them turns out sambusas with a habit of selling out before dinner.</p>
+<div class="hero__ctas gs-hero">
+<a class="btn btn--berbere" href="tel:+12026216860" data-magnetic>
+Call (202) 621-6860
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c1 .3 2 .6 3 .7a2 2 0 0 1 1.6 2Z"/></svg>
+</a>
+<a class="btn btn--ghost" href="#kitchen">See the kitchen</a>
+</div>
+<!-- CONFIRM with owner: Google 4.4★ and Facebook 5★ figures came from a search summary and are NOT verified — only the Restaurantji rating is shown on the page. -->
+<p class="hero__rating gs-hero"><span class="hero__stars" aria-hidden="true">★★★★★</span> 5.0 on Restaurantji · 14+ reviews · Kennedy St NW</p>
+</div>
+<p class="hero__scroll" aria-hidden="true">scroll</p>
+</header>
+<div class="tibeb" role="presentation"></div>
+<section class="band story" id="market">
+<div class="wrap">
+<div>
+<p class="eyebrow gs-reveal">The market</p>
+<h2 class="display-lg gs-reveal">A grocery that grew <em class="flavor">a kitchen</em> — and kept the block fed</h2>
+<p class="lede gs-reveal" style="margin-top:20px">It started the way the best markets do: shelves of the staples an Ethiopian kitchen can't run without. Then came the seats, the hot trays, the holiday celebrations — and now Kennedy Street has a market where you shop for the week and stay for a plate.</p>
+<blockquote class="story__quote gs-reveal">
+<!-- Verbatim excerpt from research; sourced from a search-result snippet of Yelp, not the Yelp page itself. CONFIRM before launch. Note the review names the business "Selassie". -->
+"Selassie Ethiopian Market has really delicious food"
+<cite>— Yelp review</cite>
+</blockquote>
+</div>
+<div class="story__facts">
+<div class="fact gs-reveal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+<div><strong>Come early for sambusas</strong><span>They have a well-earned reputation for selling out</span></div>
+</div>
+<div class="fact gs-reveal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13"/><path d="M4 12h16M9 21v-6h6v6"/></svg>
+<div><strong>Grocery + prepared food</strong><span>Stock the pantry, then eat something hot on the spot</span></div>
+</div>
+<div class="fact gs-reveal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M17 8a5 5 0 1 0-10 0c0 4-2 5-2 5h14s-2-1-2-5"/><path d="M10 17a2 2 0 0 0 4 0"/></svg>
+<div><strong>Holiday celebrations</strong><span>A gathering spot for Ethiopian holidays on Kennedy Street</span></div>
+</div>
+<div class="fact gs-reveal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 14h18l-2 7H5Z"/><path d="M12 3v6M8 6l4 3 4-3"/></svg>
+<div><strong>Catering for a crowd</strong><span>Injera platters and stews, scaled to your occasion</span></div>
+</div>
+</div>
+</div>
+</section>
+<div class="tibeb tibeb--thin" role="presentation"></div>
+<section class="band band--dark dishes" id="aisles">
+<div class="wrap">
+<div class="dishes__head">
+<div>
+<p class="eyebrow gs-reveal">Walk the aisles</p>
+<h2 class="display-lg gs-reveal">Four shelves <em class="flavor">every Ethiopian kitchen</em> leans on</h2>
+</div>
+<a class="btn btn--ghost gs-reveal" href="tel:+12026216860">Ask what's in stock</a>
+</div>
+<article class="dish gs-reveal">
+<span class="dish__num">Aisle 1</span>
+<div>
+<p class="dish__amharic" lang="am">በርበሬ</p>
+<h3>The Spice Wall</h3>
+<p>Berbere with real depth, mitmita with real heat, shiro flour ready for the pot — the blends a home kitchen measures by the handful, sold by the bag.</p>
+<div class="dish__tags"><span class="tag tag--spice">Ground &amp; blended</span><span class="tag tag--fav">Pantry anchor</span></div>
+</div>
+</article>
+<article class="dish gs-reveal">
+<span class="dish__num">Aisle 2</span>
+<div>
+<p class="dish__amharic" lang="am">እንጀራ</p>
+<h3>Injera &amp; Teff</h3>
+<p>Soft, sour injera by the pack for tonight — and teff flour for the weekend you fire up your own mitad.</p>
+<div class="dish__tags"><span class="tag tag--fav">House specialty</span><span class="tag tag--vegan">Naturally vegan</span></div>
+</div>
+</article>
+<article class="dish gs-reveal">
+<span class="dish__num">Aisle 3</span>
+<div>
+<p class="dish__amharic" lang="am">ቡና</p>
+<h3>The Coffee Corner</h3>
+<p>Green beans for roasting at home the way coffee's birthplace intended — pan, smoke, and a room that suddenly smells like a ceremony.</p>
+<div class="dish__tags"><span class="tag tag--fav">Roast your own</span></div>
+</div>
+</article>
+<article class="dish gs-reveal">
+<span class="dish__num">Aisle 4</span>
+<div>
+<p class="dish__amharic" lang="am">ቅቤ</p>
+<h3>Butter, Grains &amp; Pantry</h3>
+<p>Spiced butter, split peas, lentils and the long tail of staples — the difference between cooking Ethiopian food and chasing substitutes across three stores.</p>
+<div class="dish__tags"><span class="tag tag--spice">Staples</span></div>
+</div>
+</article>
+<p class="shelf-note gs-reveal">A sampling of the shelves, not the full inventory — stock moves fast. Call <a href="tel:+12026216860" style="color:var(--tej)">(202) 621-6860</a> for today's arrivals.</p>
+</div>
+</section>
+<section class="band band--deep" id="kitchen">
+<div class="wrap">
+<p class="eyebrow gs-reveal">The kitchen in the back</p>
+<h2 class="display-lg gs-reveal">Where the market <em class="flavor">starts steaming</em></h2>
+<div class="kitchen__grid">
+<div class="photo-slot photo-slot--tall gs-reveal">
+<div class="steam" aria-hidden="true" style="left:50%;bottom:42%"><i style="--n:0"></i><i style="--n:1"></i><i style="--n:2"></i><i style="--n:3"></i></div>
+<span>Photo slot — sambusas straight from the fryer<br>(replace with the market's own photography)</span>
+</div>
+<div>
+<div class="menu-item gs-reveal">
+<h3>Sambusas <span class="amharic" lang="am">ሳምቡሳ</span></h3>
+<span class="menu-item__price">market</span>
+<p>Crisp pastry, spiced filling, gone by evening more often than not. If you're coming for these, come early or call ahead.</p>
+<div class="dish__tags"><span class="tag tag--fav">Sells out</span></div>
+</div>
+<div class="menu-item gs-reveal">
+<h3>Doro Wat <span class="amharic" lang="am">ዶሮ ወጥ</span></h3>
+<span class="menu-item__price">market</span>
+<p>The slow-simmered chicken stew that anchors an Ethiopian table — deep berbere, soft egg, injera to carry it.</p>
+</div>
+<div class="menu-item gs-reveal">
+<h3>Vegetarian Plates <span class="amharic" lang="am">የጾም</span></h3>
+<span class="menu-item__price">market</span>
+<p>Fasting-tradition cooking — lentils, greens and split peas that don't treat vegetarian as an afterthought.</p>
+<div class="dish__tags"><span class="tag tag--vegan">Vegan-friendly</span></div>
+</div>
+<div class="menu-item gs-reveal">
+<h3>Fresh Injera <span class="amharic" lang="am">እንጀራ</span></h3>
+<span class="menu-item__price">market</span>
+<p>By the pack, ready to go home with your groceries — or under whatever the kitchen is serving today.</p>
+</div>
+<!-- CONFIRM with owner: dish list is drawn from the research specialties; verify the actual prepared-food lineup before launch. -->
+<p class="menu-note gs-reveal">Sample of the kitchen's regular rotation, not a full menu. Prices are set at the market and change with the day — call (202) 621-6860 for what's cooking and what it costs.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="band band--dark numbers">
+<div class="wrap">
+<div class="number gs-reveal"><b><span data-count="5.0" data-decimals="1">0</span><sup>★</sup></b><span>Restaurantji rating</span></div>
+<div class="number gs-reveal"><b><span data-count="14">0</span><sup>+</sup></b><span>Restaurantji reviews</span></div>
+<div class="number gs-reveal"><b><span data-count="7">0</span> days</b><span>Open every week</span></div>
+</div>
+</section>
+<div class="tibeb" role="presentation"></div>
+<section class="band band--dark visit" id="visit">
+<div class="wrap">
+<div>
+<p class="eyebrow gs-reveal">Visit</p>
+<h2 class="display-lg gs-reveal">Find <em class="flavor">the market</em></h2>
+<div class="visit__block gs-reveal" style="margin-top:34px">
+<h3>Address</h3>
+<address>705 Kennedy St NW<br>Washington, DC 20011</address>
+</div>
+<div class="visit__block gs-reveal">
+<h3>Call ahead</h3>
+<a class="visit__phone" href="tel:+12026216860">(202) 621-6860</a>
+</div>
+</div>
+<div>
+<div class="visit__block gs-reveal">
+<h3>Hours</h3>
+<!-- CONFIRM with owner: hours conflict — Restaurantji lists 10AM-10PM daily, YP lists 9AM-11PM daily. Restaurantji shown; visible call-to-confirm note kept below. -->
+<table class="hours">
+<tr><td>Monday – Sunday</td><td>10:00 am – 10:00 pm</td></tr>
+</table>
+<p class="visit__confirm">Directory listings disagree on exact hours (one shows 9 am – 11 pm). Call (202) 621-6860 before making a special trip.</p>
+</div>
+<div class="visit__block gs-reveal">
+<h3>Catering &amp; events</h3>
+<p class="muted">Injera, stews and sambusas for gatherings of any size — the same kitchen that feeds Kennedy Street's holiday celebrations can feed yours. Call to talk through the occasion.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="band cta-band">
+<div class="wrap">
+<span class="amharic gs-reveal" lang="am">ቡና እንጠጣ — let's have coffee</span>
+<h2 class="display-lg gs-reveal">Come for the berbere. Stay for whatever's <em class="flavor">steaming in the back.</em></h2>
+<div class="cta-band__actions gs-reveal">
+<a class="btn btn--berbere" href="tel:+12026216860" data-magnetic>Call (202) 621-6860</a>
+<a class="btn btn--ghost-dark" href="https://maps.google.com/?q=705+Kennedy+St+NW,+Washington,+DC+20011" rel="noopener" target="_blank">Get directions</a>
+</div>
+</div>
+</section>
+<footer>
+<div class="wrap">
+<p>© <span id="year">2026</span> Iassie Ethiopian Market · Washington, DC</p>
+<p><a href="tel:+12026216860">(202) 621-6860</a> · <a href="#aisles">The Aisles</a> · <a href="#visit">Visit</a></p>
+</div>
+</footer>
+<div class="callbar">
+<a class="btn btn--berbere" href="tel:+12026216860">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c1 .3 2 .6 3 .7a2 2 0 0 1 1.6 2Z"/></svg>
+Call the Market — (202) 621-6860
+</a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/site.js" defer></script>
+</body>
+</html>
